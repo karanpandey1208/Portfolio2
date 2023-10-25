@@ -30,19 +30,29 @@
     /*float: left;*/
     max-width: 400px;
     font-family: 'Lato';
-    font-weight: 400;
+    font-weight: bolder;
   }
   
   .form-control, 
   textarea {
+      
     max-width: 400px;
     background-color: #000;
-    color: #CCCCCC;
+    color: #ffffff;
     letter-spacing: 1px;
   }
   
+  .form-group input::placeholder {
+    color: #208cf1;
+    opacity: 4;
+  }
+  .form-group textarea::placeholder {
+    color: #208cf1;
+    opacity: 4;
+  }
+  
   .send-button {
-    background-color: #208cf1;;
+    background-color: #208cf1;
     margin-top: 15px;
     height: 34px;
     width: 400px;
@@ -103,7 +113,7 @@
   }
   
   .contact-text a {
-    color: #bbb;
+    color: #ffffff;
     text-decoration: none;
     transition-duration: 0.2s;
   }
